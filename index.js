@@ -7,7 +7,7 @@ const pdfParse = require('pdf-parse');
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:3001']
+  origin: ['http://localhost:3001','resume-analyzer-ui-nu.vercel.app']
 }));
 
 app.use(express.json());
